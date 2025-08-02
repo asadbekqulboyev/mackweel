@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.header {
+  background: var(--dark);
+  width: 100%;
+}
+.header li {
+  list-style: none;
+}
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+.header__inner {
+  padding: 40px 0;
+}
+.header_bottom {
+  padding: 32px 0;
+  background: var(--moviy);
+}
+.header_bottom a {
+  gap: 20px;
+  text-transform: uppercase;
+}
+
+.hero {
+  padding: 56px 0;
+}
+.hero_title {
+  color: var(--dark);
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103%;
+  text-transform: uppercase;
+}
+.hero_title span {
+  color: var(--moviy);
+}
+.hero_text {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 200;
+  color: var(--dark);
+  margin-top: 32px;
+}
+.hero .button {
+  margin-top: 45px;
+}
+.hero_left {
+  width: calc(40% - 15px);
+}
+.hero_img {
+  width: calc(60% - 20px);
+}
+.hero_img img {
+  width: 100%;
+  border-radius: 61px;
+}
+
+.patient_checkup_top {
+  padding: 25px 0 21px;
+  background: #8093ca;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.patient_checkup_subtitle {
+  padding-top: 4px;
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.patient_checkup_content {
+  padding: 46px 0 56px;
+  background: rgba(128, 147, 202, 0.6);
+}
+.patient_checkup .checkup_items {
+  padding-top: 50px;
+}
+.patient_checkup .checkup_item {
+  gap: 32px;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+:root {
+  --dark: #264b5a;
+  --moviy: #8093ca;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 1214px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+.flex.between {
+  justify-content: space-between;
+}
+.flex.center {
+  justify-content: center;
+}
+.flex.end {
+  justify-content: flex-end;
+}
+.flex.start {
+  justify-content: flex-start;
+}
+.flex.column {
+  flex-direction: column;
+}
+.flex.a_center {
+  align-items: center;
+}
+.flex.a_start {
+  align-items: flex-start;
+}
+.flex.a_end {
+  align-items: flex-end;
+}
+.flex.wrap {
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 18px 80px;
+  cursor: pointer;
+  background: var(--dark);
+  color: #fff;
+  display: block;
+  text-align: center;
+  width: fit-content;
+  border-radius: 58px;
+  border: 2px solid #264b5a;
+  background: #264b5a;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+  min-width: 399px;
+}
+.button span {
+  color: var(--moviy);
+}/*# sourceMappingURL=style.css.map */

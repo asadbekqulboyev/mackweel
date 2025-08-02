@@ -1,0 +1,22 @@
+.header {
+  background: var(--dark);
+  width: 100%;
+  li {
+    list-style: none;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  &__inner {
+    padding: 40px 0;
+  }
+  &_bottom {
+    padding: 32px 0;
+    background: var(--moviy);
+    a {
+      gap: 20px;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.patient_checkup {
+  &_top {
+    padding: 25px 0 21px;
+    background: #8093ca;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  &_subtitle {
+    padding-top: 4px;
+    text-align: center;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  &_content {
+    padding: 46px 0 56px;
+    background: rgba(128, 147, 202, 0.6);
+  }
+
+  .checkup_items {
+    padding-top: 50px;
+  }
+  .checkup_item {
+    gap: 32px;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
