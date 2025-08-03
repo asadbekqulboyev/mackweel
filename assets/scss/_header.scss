@@ -7,9 +7,43 @@
   a {
     color: #fff;
     text-decoration: none;
+    gap: 10px;
+  }
+  .button {
+    border: 1px solid #fff;
+    padding: 17px 12px;
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
+  .menu {
+    gap: 40px;
+    @media (max-width: 1200px) {
+      gap: 20px;
+      font-size: 18px;
+    }
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
   &__inner {
     padding: 40px 0;
+    @media (max-width: 768px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .header__logo {
+      @media (max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        img {
+          max-width: 96%;
+        }
+      }
+    }
   }
   &_bottom {
     padding: 32px 0;
@@ -17,6 +51,12 @@
     a {
       gap: 20px;
       text-transform: uppercase;
+      @media (max-width: 1200px) {
+        font-size: 20px;
+      }
+      @media (max-width: 1200px) {
+        font-size: 20px;
+      }
     }
   }
 }

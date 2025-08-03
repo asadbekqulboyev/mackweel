@@ -1,0 +1,54 @@
+.contacts {
+  padding: 70px 0;
+  color: #264b5a;
+  .contact_item:last-child {
+    margin-top: 30px;
+  }
+  li,
+  a,
+  .contact_item {
+    color: #264b5a;
+    font-family: "Nunito";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-decoration: none;
+    list-style: none;
+  }
+  &_info {
+    width: calc(50% - 35px);
+    h4 {
+      color: #264b5a;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 121.766%;
+      padding-top: 56px;
+      padding-bottom: 10px;
+    }
+    ul {
+      &.flex {
+        margin-top: 40px;
+        gap: 16px;
+        li {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+    }
+  }
+  .section_title {
+    font-family: Nunito;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121.766%;
+    letter-spacing: 6.76px;
+    text-transform: uppercase;
+    span {
+      color: #a9b5db;
+    }
+  }
+}

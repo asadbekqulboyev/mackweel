@@ -1,0 +1,61 @@
+.form {
+  padding: 70px 0 114px;
+  background: rgba(169, 181, 219, 0.3);
+  .container {
+    max-width: 838px;
+  }
+  .section_title {
+    text-align: center;
+    color: #264b5a;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: 6.76px;
+    text-transform: uppercase;
+    span {
+      color: #8093ca;
+    }
+  }
+  &_inputs {
+    padding-top: 58px;
+    color: #000;
+    font-size: 16px;
+    gap: 25px;
+    label {
+      gap: 8px;
+    }
+    input,
+    textarea {
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: 1px solid #d9d9d9;
+      background: #fff;
+    }
+    textarea {
+      resize: none;
+      min-height: 80px;
+    }
+  }
+  .check_content {
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 121.991%;
+    padding-top: 45px;
+    gap: 35px;
+    label {
+      gap: 10px;
+      cursor: pointer;
+    }
+    .button {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 0;
+    }
+  }
+}

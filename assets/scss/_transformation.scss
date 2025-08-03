@@ -1,0 +1,23 @@
+.transformation {
+  padding: 66px 0 104px;
+  background: #a9b5db;
+  &_text {
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 11px;
+  }
+  &_items {
+    padding-top: 50px;
+  }
+  &_item {
+    width: calc(25% - 12.5px);
+    img {
+      width: 100%;
+    }
+  }
+}

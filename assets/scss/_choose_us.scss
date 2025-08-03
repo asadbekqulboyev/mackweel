@@ -1,0 +1,113 @@
+.choose_us {
+  padding: 56px 0 20px;
+  .section_title {
+    color: #264b5a;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121.766%;
+    letter-spacing: 6.76px;
+    text-transform: uppercase;
+  }
+  &_items {
+    padding-top: 70px;
+    width: 100%;
+  }
+  &_item {
+    width: 100%;
+    max-width: calc(25% - 12px);
+    text-align: center;
+    gap: 28px;
+    &_body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 237px;
+      p {
+        padding-top: 37px;
+        color: #264b5a;
+        text-align: center;
+        font-family: "Montserrat";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    h4 {
+      color: #8093ca;
+      text-align: center;
+      font-family: "Montserrat";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 121.766%;
+      max-width: 200px;
+    }
+  }
+}
+.choose {
+  background: #264b5a;
+  padding: 106px 0 73px;
+  .section_title {
+    color: #fff;
+    font-family: "Nunito";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    letter-spacing: 6.76px;
+    text-transform: uppercase;
+    span {
+      color: #a9b5db;
+    }
+  }
+  &_images {
+    position: relative;
+    width: calc(50% - 35px);
+    .choose_img1 {
+      position: absolute;
+      top: -68px;
+      right: 22px;
+      border-width: 4.5px;
+    }
+    .choose_img3 {
+      position: absolute;
+      bottom: -300px;
+      left: 0;
+      right: 0;
+      top: auto;
+      margin: auto;
+      border-width: 4.5px;
+      transform: translate(0, -50%);
+    }
+    img {
+      border-radius: 62px;
+      border: 8px solid #8093ca;
+    }
+  }
+  p {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+  }
+  .button {
+    border-radius: 58px;
+    border: 1px solid #8093ca;
+    background: #8093ca;
+    padding: 19px 40px;
+    margin-top: 59px;
+    span {
+      color: #264b5a;
+    }
+  }
+  &_info {
+    width: calc(50% - 35px);
+  }
+}
