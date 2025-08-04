@@ -47,6 +47,11 @@
   }
   .form {
     background: rgba(78, 154, 52, 0.2);
+    .section_title {
+      span {
+        color: #4e9a34;
+      }
+    }
     .button {
       background: #4e9a34;
       border-color: #4e9a34;
@@ -56,6 +61,31 @@
     }
     .custom_checkbox input[type="checkbox"]:checked + .checkbox::after {
       border-color: #4e9a34;
+    }
+  }
+  .contacts {
+    background: #fff;
+
+    .section_title {
+      span {
+        color: #4e9a34;
+      }
+    }
+  }
+  .choose_images img {
+    border-color: #4e9a34;
+  }
+}
+.footer.marshfarm {
+  .button {
+    background: #4e9a34;
+    border-color: #4e9a34;
+    min-width: fit-content;
+  }
+  .footer_logo {
+    padding-bottom: 45px;
+    @media (max-width: 768px) {
+      padding-bottom: 5px;
     }
   }
 }
