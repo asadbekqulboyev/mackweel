@@ -2,6 +2,9 @@
   padding: 74px 0;
   background: #181818;
   position: relative;
+  @media (max-width: 768px) {
+    padding: 73px 0 86px;
+  }
   &_text {
     color: #fff;
     text-align: center;
@@ -11,10 +14,25 @@
     font-weight: 400;
     line-height: normal;
     gap: 26px;
+    @media (max-width: 768px) {
+      margin-top: 23px;
+      font-size: 14px;
+    }
   }
   .button {
     position: absolute;
     top: -30px;
     right: 107px;
+    border: 2px solid #8093ca;
+    border-radius: 58px;
+    background: #8093ca;
+    span {
+      color: #264b5a;
+    }
+    @media (max-width: 768px) {
+      position: static;
+      margin: 0 auto;
+      margin-bottom: 32px;
+    }
   }
 }

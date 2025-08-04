@@ -1,8 +1,32 @@
 .contacts {
   padding: 70px 0;
   color: #264b5a;
+  @media (max-width: 768px) {
+    background: #fff;
+    padding: 45px 0 70px;
+  }
+  .section_title {
+    @media (max-width: 768px) {
+      font-size: 34px;
+    }
+  }
   .contact_item:last-child {
     margin-top: 30px;
+    @media (max-width: 768px) {
+      margin-top: 21px;
+    }
+  }
+  .container {
+    @media (max-width: 768px) {
+      gap: 0px;
+      flex-direction: column;
+    }
+  }
+  &_image {
+    width: calc(50% - 15px);
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
   li,
   a,
@@ -15,9 +39,20 @@
     line-height: normal;
     text-decoration: none;
     list-style: none;
+    @media (max-width: 768px) {
+      color: #264b5a;
+      text-align: center;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: normal;
+    }
   }
   &_info {
-    width: calc(50% - 35px);
+    width: calc(50% - 15px);
+    @media (max-width: 768px) {
+      width: 100%;
+    }
     h4 {
       color: #264b5a;
       font-size: 20px;
@@ -31,16 +66,32 @@
       &.flex {
         margin-top: 40px;
         gap: 16px;
+
         li {
           display: flex;
           align-items: center;
           gap: 10px;
+          @media (max-width: 768px) {
+            justify-content: center;
+          }
         }
       }
     }
   }
+  .maps {
+    width: 100%;
+    object-fit: contain;
+    @media (max-width: 768px) {
+      border-radius: 16px;
+    }
+  }
+  .mobile {
+    @media (max-width: 768px) {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+  }
   .section_title {
-    font-family: Nunito;
     font-size: 52px;
     font-style: normal;
     font-weight: 700;
