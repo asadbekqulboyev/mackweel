@@ -984,6 +984,53 @@
   color: #a9b5db;
 }
 
+.marshfarm_main .hero .hero_title span {
+  color: #4e9a34;
+}
+.marshfarm_main .hero .button span {
+  color: #4e9a34;
+}
+.marshfarm_main .patient_checkup {
+  background: #4e9a34;
+}
+.marshfarm_main .patient_checkup .patient_checkup_content {
+  background: none;
+}
+.marshfarm_main .choose .section_title span {
+  color: #4e9a34;
+}
+.marshfarm_main .choose .button {
+  border-radius: 58px;
+  border: 1px solid #4e9a34;
+  background: #4e9a34;
+}
+.marshfarm_main .choose_us {
+  background: #f3f7f9;
+  padding-bottom: 53px;
+}
+.marshfarm_main .choose_us .section_title span {
+  color: #4e9a34;
+}
+.marshfarm_main .choose_us_item h4 {
+  color: #4e9a34;
+}
+.marshfarm_main .transformation {
+  background: #4e9a34;
+}
+.marshfarm_main .form {
+  background: rgba(78, 154, 52, 0.2);
+}
+.marshfarm_main .form .button {
+  background: #4e9a34;
+  border-color: #4e9a34;
+}
+.marshfarm_main .form .custom_checkbox .checkbox {
+  border-color: #4e9a34;
+}
+.marshfarm_main .form .custom_checkbox input[type=checkbox]:checked + .checkbox::after {
+  border-color: #4e9a34;
+}
+
 .footer {
   padding: 74px 0;
   background: #181818;

@@ -1,0 +1,61 @@
+.marshfarm_main {
+  .hero {
+    .hero_title {
+      span {
+        color: #4e9a34;
+      }
+    }
+    .button {
+      span {
+        color: #4e9a34;
+      }
+    }
+  }
+  .patient_checkup {
+    background: #4e9a34;
+    .patient_checkup_content {
+      background: none;
+    }
+  }
+  .choose {
+    .section_title {
+      span {
+        color: #4e9a34;
+      }
+    }
+
+    .button {
+      border-radius: 58px;
+      border: 1px solid #4e9a34;
+      background: #4e9a34;
+    }
+  }
+  .choose_us {
+    background: #f3f7f9;
+    padding-bottom: 53px;
+    .section_title {
+      span {
+        color: #4e9a34;
+      }
+    }
+  }
+  .choose_us_item h4 {
+    color: #4e9a34;
+  }
+  .transformation {
+    background: #4e9a34;
+  }
+  .form {
+    background: rgba(78, 154, 52, 0.2);
+    .button {
+      background: #4e9a34;
+      border-color: #4e9a34;
+    }
+    .custom_checkbox .checkbox {
+      border-color: #4e9a34;
+    }
+    .custom_checkbox input[type="checkbox"]:checked + .checkbox::after {
+      border-color: #4e9a34;
+    }
+  }
+}
